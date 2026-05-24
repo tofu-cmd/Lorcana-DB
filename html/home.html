@@ -4,10 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Random Disney Cards</title>
+
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/card.css">
 </head>
+
 <body>
+
   <nav>
     <div class="logo">Lorcana</div>
     <ul>
@@ -17,21 +20,34 @@
     </ul>
   </nav>
 
+  <!-- SEARCH BAR -->
   <div class="search-bar">
     <input type="text" id="searchInput" placeholder="Search for a character..." />
     <button id="searchBtn">Search</button>
   </div>
-  <div id="search-result">
 
-  </div>
+  <!-- SEARCH TITLE (JS updates this) -->
+  <h2 id="searchTitle" style="text-align:center;"></h2>
+
+  <!-- SEARCH RESULTS -->
+  <div id="search-result"></div>
+
+  <!-- MAIN TITLE -->
   <h1>Random Disney Cards</h1>
-  <div id="cardContainer">
-    <!-- JS will insert cards here -->
-  </div>
+
+  <!-- MAIN CARD GRID -->
+  <div id="cardContainer"></div>
+
+  <!-- PAGINATION (JS GENERATES BUTTONS HERE) -->
+  <div id="pagination"></div>
+
+  <!-- BACK TO TOP -->
   <button id="backToTop" title="Back to Top">⬆️</button>
 
+  <!-- SCRIPTS -->
   <script src="../js/darkmode.js"></script>
   <script src="../js/disney.js"></script>
-    <script src="../js/backToTop.js"></script>
+  <script src="../js/backToTop.js"></script>
+
 </body>
 </html>

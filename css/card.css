@@ -236,3 +236,13 @@ h1 {
     grid-template-columns: 1fr !important;
   }
 }
+
+
+#pagination {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* aligns vertically */
+  gap: 12px;                 /* space between buttons */
+  margin: 2rem auto 3rem auto;
+  width: 100%;
+}
